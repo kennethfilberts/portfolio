@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @media (prefers-color-scheme: dark) {
+    :root {
+      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      font-weight: 400;
+
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-text-size-adjust: 100%;
+
+      scroll-behavior: smooth;
+      --color-bgc: 50, 50, 50;
+      --color-content: 234, 231, 221;
+      --color-accent: 234, 179, 8;
+      --color-hvr: 15, 23, 42;
+    }
+  }
+
+  :root[data-theme="light"] {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    scroll-behavior: smooth;
+    --color-bgc: 234, 231, 221;
+    --color-content: 50, 50, 50;
+    --color-accent: 234, 179, 8;
+    --color-hvr: 156, 163, 175;
+  }
+}
+
+@media (min-width: 640px) {
+  /* Styles for tablets and larger screens */
+  /* Adjust font sizes, margins, and padding as needed */
+  .text-lg {
+    font-size: 1.25rem; /* Example font size for tablets */
+  }
+}
+
+@media (min-width: 1024px) {
+  .p-6 {
+    padding: 0.5rem;
+  }
+
+  .text-2xl {
+    font-size: medium;
+  }
+}
