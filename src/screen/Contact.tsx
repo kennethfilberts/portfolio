@@ -1,14 +1,11 @@
 import LinkedIn from "../assets/icons/others/linkedin-original.svg";
 import Instagram from "../assets/icons/others/instagram.svg";
+import Github from "../assets/icons/others/github-original.svg";
 
 function Contact() {
   return (
     <div className="justify-center items-center bg-bgc p-10 flex gap-4">
-      <h1 className="text-2xl font-black text-center text-content">
-        Contact Me
-      </h1>
-
-      <div className="bg-accent h-48 w-1" />
+      <div className="bg-accent h-72 w-1" />
 
       <div className="flex justify-center items-center">
         <div className="bg-content p-8 rounded-lg shadow-md">
@@ -45,9 +42,18 @@ function Contact() {
             >
               <img src={Instagram} alt="Instagram" className="w-10 h-10" />
             </a>
+            <a
+              href="https://github.com/kennethfilberts"
+              target="_blank"
+              className="hover:shadow-lg hover:overflow-hidden hover:scale-95 hover:rounded-full"
+            >
+              <img src={Github} alt="Github" className="w-10 h-10" />
+            </a>
           </div>
         </div>
       </div>
+
+      <div className="bg-accent h-72 w-1" />
     </div>
   );
 }

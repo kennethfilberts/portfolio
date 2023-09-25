@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.w-100{
+  width: 29rem;
+}
+
 @layer base {
   @media (prefers-color-scheme: dark) {
     :root {
@@ -38,20 +42,93 @@
   }
 }
 
-@media (min-width: 640px) {
-  /* Styles for tablets and larger screens */
-  /* Adjust font sizes, margins, and padding as needed */
-  .text-lg {
-    font-size: 1.25rem; /* Example font size for tablets */
-  }
-}
-
-@media (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .p-6 {
-    padding: 0.5rem;
+    padding: 1rem;
   }
 
   .text-2xl {
-    font-size: medium;
+    font-size: 1.3rem;
+  }
+
+  .text-3xl {
+    font-size: 1.5rem;
+  }
+
+  .text-lg {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text-lg {
+    font-size: 1.25rem;
+  }
+
+  .p-4 {
+    padding: 0.7rem;
+  }
+
+  .p-6 {
+    padding: 0.8rem;
+  }
+
+  .gap-x-7 {
+    column-gap: 0.6rem;
+  }
+
+  .gap-10 {
+    gap: 2rem;
+  }
+
+  .w-1{
+    width: 1rem;
+  }
+
+  .px-8{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .w-96{
+    width: 20rem;
+  }
+
+  .h-96{
+    height: 20rem;
+  }
+
+  .w-100{
+    width: 17rem;
+  }
+
+  .gap-28{
+    gap: 4rem;
+  }
+
+  .text-2xl{
+    font-size: 1.5rem;
+  }
+
+  .w-42 {
+    width: 7rem;
+  }
+
+  .w-16 {
+    width: 3rem;
+  }
+
+  .h-16 {
+    height: 3rem;
+  }
+
+  .w-1 {
+    width: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 541px) {
+  .p-6 {
+    padding: 1.5rem;
   }
 }

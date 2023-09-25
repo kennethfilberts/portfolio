@@ -5,7 +5,6 @@ import SQL from "../assets/icons/database/sql.svg";
 import Tensorflow from "../assets/icons/frameworks/tensorflow-original.svg";
 import Python from "../assets/icons/language/Python.svg";
 import CS from "../assets/icons/language/CS.svg";
-import Figma from "../assets/icons/others/figma-original.svg";
 import HTML from "../assets/icons/language/html.svg";
 import CSS from "../assets/icons/language/css.svg";
 import JavaScript from "../assets/icons/language/JavaScript.svg";
@@ -40,16 +39,16 @@ function Works() {
       image: [Github, CS],
     },
     {
-      title: "Project 2",
-      description: "Description of Project 2 goes here.",
-      link: "https://github.com/kennethfilberts/binus-recycle-app",
-      image: [Github, Figma, HTML, CSS, JavaScript],
+      title: "Noka",
+      description: "A demo website for MOBA game project using basic HTML, CSS, JS",
+      link: "https://github.com/kennethfilberts/noka",
+      image: [Github, HTML, CSS, JavaScript],
     },
     {
-      title: "Project 2",
-      description: "Description of Project 2 goes here.",
-      link: "https://github.com/kennethfilberts/binus-recycle-app",
-      image: [Github, Figma, HTML, CSS, JavaScript],
+      title: "Sunbic",
+      description: "A demo campus website. This website using basic HTML, CSS, JS",
+      link: "https://github.com/kennethfilberts/sunbic",
+      image: [Github, HTML, CSS, JavaScript],
     },
   ];
 
@@ -67,7 +66,7 @@ function Works() {
             rel="noopener noreferrer"
             className="no-underline bg-bgc p-4 rounded-lg shadow-md transition-transform transform hover:scale-105 cursor-pointer flex flex-col items-start"
           >
-            <div className="bg-bgc p-4 rounded-lg flex flex-col items-start">
+            <div className="bg-bgc p-4 rounded-lg flex flex-col">
               <h2 className="text-xl font-semibold text-content mb-4">
                 {project.title}
               </h2>
