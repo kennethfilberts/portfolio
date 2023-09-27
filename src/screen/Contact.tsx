@@ -22,7 +22,7 @@ function Contact() {
             <strong>Phone:</strong> 081534856073
           </p>
           <p className="mb-2 text-bgc">
-            <strong>Location:</strong> Jl. Bisma 20 Blok C10 No.34
+            <strong>Location:</strong> Jakarta Utara, Indonesia
           </p>
           <h2 className="mb-2 text-bgc">
             <strong>Social Media:</strong>
